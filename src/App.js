@@ -97,7 +97,7 @@ class App extends Component {
     onDeleteTask = (id) => {
         var { tasks } = this.state;
         var index = this.findIndex(id);
-        tasks.splice(index, 1);//unshift cung duoc.
+        tasks.splice(index, 1); //unshift cung duoc.
         this.setState({
             tasks : tasks
         });
@@ -194,7 +194,7 @@ class App extends Component {
                         <button type="button" 
                                 className="btn btn-primary" 
                                 onClick={this.onToggleForm} >
-                            <span className="fa fa-plus mr-5"></span>Thêm Công Việc
+                            Thêm Công Việc
                         </button>
                         <TaskControl
                             onSearch={this.onSearch}

@@ -95,10 +95,10 @@ class TaskForm extends Component {
                         </select><br/>
                         <div className="text-center">
                             <button type="submit" className="btn btn-warning">
-                                <span className="fa fa-plus mr-5"></span>Lưu Lại
+                                Lưu Lại
                             </button>&nbsp;
                             <button type="button" onClick={ this.onClear } className="btn btn-danger">
-                                <span className="fa fa-close mr-5"></span>Hủy Bỏ
+                                Hủy Bỏ
                             </button>
                         </div>
                     </form>
